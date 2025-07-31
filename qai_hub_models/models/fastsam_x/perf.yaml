@@ -51,7 +51,19 @@ precisions:
         universal_assets:
           tflite: mqy78okrq
           qnn_dlc: mmxy9lrkq
-          onnx: mm5013yyq
+          onnx: mngv65j5n
+        device_assets:
+          Snapdragon X Elite CRD:
+            qnn_context_binary: mn0v5ed8m
+            precompiled_qnn_onnx: mn0v5ed8m
+        asset_tool_versions:
+          tflite:
+            tflite: 2.16.1
+          qnn_dlc:
+            qairt: 2.34.2.250528164111_119506
+          onnx:
+            onnx: 1.18.0
+            onnx_runtime: 1.19.2
         performance_metrics:
           QCS8275 (Proxy):
             tflite:
@@ -65,6 +77,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506-auto
+                tflite: 2.17.0
             qnn_dlc:
               job_id: jgdqxwll5
               job_status: Passed
@@ -76,6 +91,8 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506-auto
           QCS8450 (Proxy):
             tflite:
               job_id: jpewd930p
@@ -88,6 +105,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                tflite: 2.17.0
             qnn_dlc:
               job_id: jp4dlorvp
               job_status: Passed
@@ -99,6 +119,8 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
           QCS8550 (Proxy):
             tflite:
               job_id: jgj2vx485
@@ -111,6 +133,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                tflite: 2.17.0
             qnn_dlc:
               job_id: j57lywrlg
               job_status: Passed
@@ -122,6 +147,8 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
           QCS9075 (Proxy):
             tflite:
               job_id: jpvr63xm5
@@ -134,6 +161,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506-auto
+                tflite: 2.17.0
             qnn_dlc:
               job_id: jgdqx91e5
               job_status: Passed
@@ -145,6 +175,8 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506-auto
           SA7255P ADP:
             tflite:
               job_id: jgl2vnrlp
@@ -157,6 +189,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506-auto
+                tflite: 2.17.0
             qnn_dlc:
               job_id: jgdqxwll5
               job_status: Passed
@@ -168,6 +203,8 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506-auto
           SA8255 (Proxy):
             tflite:
               job_id: j56zy6l7g
@@ -180,6 +217,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                tflite: 2.17.0
             qnn_dlc:
               job_id: j5w3ev66p
               job_status: Passed
@@ -191,6 +231,8 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
           SA8295P ADP:
             tflite:
               job_id: jp31jk2zg
@@ -203,6 +245,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506-auto
+                tflite: 2.17.0
             qnn_dlc:
               job_id: jg9yl1nl5
               job_status: Passed
@@ -214,6 +259,8 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506-auto
           SA8650 (Proxy):
             tflite:
               job_id: jgon2yqdp
@@ -226,6 +273,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                tflite: 2.17.0
             qnn_dlc:
               job_id: jp1w4lz2g
               job_status: Passed
@@ -237,6 +287,8 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
           SA8775P ADP:
             tflite:
               job_id: jpvr63xm5
@@ -249,6 +301,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506-auto
+                tflite: 2.17.0
             qnn_dlc:
               job_id: jgdqx91e5
               job_status: Passed
@@ -260,6 +315,8 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506-auto
           Samsung Galaxy S23:
             tflite:
               job_id: jp8mqov85
@@ -272,6 +329,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                tflite: 2.17.0
             qnn_dlc:
               job_id: jgzj3ek6p
               job_status: Passed
@@ -283,17 +343,22 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
             onnx:
-              job_id: j5qre9kep
+              job_id: jgj20qwx5
               job_status: Passed
-              inference_time_milliseconds: 47.364
+              inference_time_milliseconds: 46.52
               estimated_peak_memory_range_mb:
-                min: 5
-                max: 287
+                min: 0
+                max: 174
               primary_compute_unit: NPU
               layer_counts:
                 total: 421
                 npu: 421
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                onnx_runtime: 1.22.0
           Samsung Galaxy S24:
             tflite:
               job_id: jgkqezmog
@@ -306,6 +371,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                tflite: 2.17.0
             qnn_dlc:
               job_id: j5w3eonjp
               job_status: Passed
@@ -317,17 +385,22 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
             onnx:
-              job_id: jgl26ez2p
+              job_id: jpewryl1p
               job_status: Passed
-              inference_time_milliseconds: 34.649
+              inference_time_milliseconds: 35.033
               estimated_peak_memory_range_mb:
-                min: 15
-                max: 100
+                min: 14
+                max: 98
               primary_compute_unit: NPU
               layer_counts:
                 total: 421
                 npu: 421
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                onnx_runtime: 1.22.0
           Snapdragon 8 Elite QRD:
             tflite:
               job_id: j5qr68omp
@@ -340,6 +413,9 @@ precisions:
               layer_counts:
                 total: 419
                 npu: 419
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                tflite: 2.17.0
             qnn_dlc:
               job_id: jg9ylvev5
               job_status: Passed
@@ -351,17 +427,22 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
             onnx:
-              job_id: j56zeqjng
+              job_id: j5w3d446p
               job_status: Passed
-              inference_time_milliseconds: 30.657
+              inference_time_milliseconds: 29.851
               estimated_peak_memory_range_mb:
-                min: 16
-                max: 90
+                min: 14
+                max: 88
               primary_compute_unit: NPU
               layer_counts:
                 total: 421
                 npu: 421
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                onnx_runtime: 1.22.0
           Snapdragon X Elite CRD:
             qnn_dlc:
               job_id: jp1w40xlg
@@ -374,14 +455,19 @@ precisions:
               layer_counts:
                 total: 415
                 npu: 415
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
             onnx:
-              job_id: jp31vq3mg
+              job_id: jg9y3ddl5
               job_status: Passed
-              inference_time_milliseconds: 47.178
+              inference_time_milliseconds: 47.164
               estimated_peak_memory_range_mb:
-                min: 140
-                max: 140
+                min: 141
+                max: 141
               primary_compute_unit: NPU
               layer_counts:
                 total: 421
                 npu: 421
+              tool_versions:
+                qairt: 2.34.2.250528164111_119506
+                onnx_runtime: 1.22.0
